@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/bulma/css/bulma.min.css">
+    <link rel="stylesheet" href="css/bulma.css">
+    <title>Orbit.Dev</title>
+</head>
+<body>
+  <div class="navbar is-black">
+    <div class="container">
+        <div class="navbar-brand">
+            <a class="navbar-item" href="index.html"><img src="logo/astronaut.png" alt="">Orbit.Dev</a>
+        <span class="navbar-burger burger" data-target="navMenu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </span>
+        </div>
+        <div id="navMenu" class="navbar-menu">
+            <div class="navbar-end">
+                <a href="index.html" class="navbar-item">home</a>
+
+                <a href="about.html" class="navbar-item">about</a>
+
+                <a href="" class="navbar-item is-active is-primary">projects</a>
+
+                <a href="" class="navbar-item">testimonials</a>
+
+                <a href="" class="navbar-item">contact</a>
+            </div>
+        </div>
+</div>
+  </div>
+
+
+    <section class="section">
+        <div class="container">
+            <h1 class="title">
+                    Hi!
+            </h1>
+            <p class="subtitle">
+                    Welcome in my Projects
+            </p>
+        </div>
+    </section>
+
+    <nav class="panel">
+        <p class="panel-heading">
+          Repositories
+        </p>
+       
+        <p class="panel-tabs">
+          <a href="all.html">All</a>
+          <a href="bulma.html">Public</a>
+          <a href="private.html">Private</a>
+          <a href="sources.html">Sources</a>
+          <a class="is-active">Forks</a>
+        </p>
+        <a class="panel-block is-active">
+          <span class="panel-icon">
+            <i class="fas fa-book" aria-hidden="true"></i>
+          </span>
+          bulma
+        </a>
+        <a class="panel-block">
+          <span class="panel-icon">
+            <i class="fas fa-book" aria-hidden="true"></i>
+          </span>
+          marksheet
+        </a>
+        <a class="panel-block">
+          <span class="panel-icon">
+            <i class="fas fa-book" aria-hidden="true"></i>
+          </span>
+          minireset.css
+        </a>
+        <a class="panel-block">
+          <span class="panel-icon">
+            <i class="fas fa-book" aria-hidden="true"></i>
+          </span>
+          monkey
+        </a>
+        <a class="panel-block">
+          <span class="panel-icon">
+            <i class="fas fa-code-branch" aria-hidden="true"></i>
+          </span>
+          node.js
+        </a>
+        <a class="panel-block">
+          <span class="panel-icon">
+            <i class="fas fa-code-branch" aria-hidden="true"></i>
+          </span>
+          php
+        </a>
+      </nav>
+
+
+
+    <script type="text/javascript">
+    (function() {
+        var burger = document.querySelector('.burger');
+        var nav = document.querySelector('#'+burger.dataset.target);
+    burger.addEventListener('click', function(){
+        burger.classList.toggle('is-active');
+        nav.classList.toggle('is-active');
+    });
+    })();
+    </script>
+</body>
+</html>
