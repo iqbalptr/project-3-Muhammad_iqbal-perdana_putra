@@ -12,11 +12,11 @@ Ala Kadarnya *harap dimaklumi*
 
 ### Bagian pada projects 
 
-* all.html (all)
-* bulma.html (public)
-* private.html (private)
-* sources.html (sources)
-* forks.html (forks)
+* all.html (all) menggunakan bulma
+* bulma.html (public) menggunakan bulma
+* private.html (private) menggunakan bulma
+* sources.html (sources) menggunakan bulma
+* forks.html (forks) menggunakan bulma
 
 #### lihat website klik dibawah
 
