@@ -1,0 +1,38 @@
+.body {
+    background-image: linear-gradient(rgba(0,0,0,0,6),rgba(0,0,0,0,6)),url('../project_3/img/andre-benz-JnB8Gio4GZo-unsplash.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+
+}
+.navbar-brand {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.navbar-brand img {
+    height: 2rem;
+    padding-left: 30px;
+    
+}
+
+.nav-item {
+    text-decoration: none;
+    text-transform: uppercase;
+    
+}
+
+.about_2 h1{
+    color: black;
+    margin: 10rem;
+}
+
+.carousel-item h5{
+    color: rgb(229, 255, 0);
+    font-family: cursive;
+
+}
+
+.carousel-item p{
+
+    color: rgb(221, 212, 195);
+    font-family: cursive;
+}

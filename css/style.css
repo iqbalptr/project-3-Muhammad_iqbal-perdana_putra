@@ -1,0 +1,28 @@
+
+.navbar-brand {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.navbar-brand img {
+    height: 2rem;
+    padding-left: 30px;
+    
+}
+
+.nav-item {
+    text-decoration: none;
+    text-transform: uppercase;
+    
+}
+.caption {
+    padding-top: 27rem;
+    padding-bottom: 10rem;
+    background-image: url('../img/jonatan-pie-h8nxGssjQXs-unsplash.jpg');
+    background-repeat: no-repeat;
+    background-size: 150rem;
+    color: white;
+}
+
+.btn {
+    color: white;
+}
+
