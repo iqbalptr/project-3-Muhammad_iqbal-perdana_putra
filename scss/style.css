@@ -1,1 +1,168 @@
-/* No CSS *//*# sourceMappingURL=style.css.map */
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: stretch;
+      -ms-flex-pack: stretch;
+          justify-content: stretch;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+  width: 100%;
+  height: 100vh;
+}
+
+.container .hero {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: stretch;
+      -ms-flex-pack: stretch;
+          justify-content: stretch;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+}
+
+.container .left-col {
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: url("../img/patrick-hendry-x5GFGHgTgB4-unsplash.jpg") center no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.container .left-col img {
+  width: 35%;
+  position: absolute;
+  left: 25%;
+  top: 40%;
+}
+
+.container .right-col {
+  padding: 0 2em;
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background: #6733c3;
+}
+
+.container .right-col .info {
+  width: 80%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  padding: 20px;
+}
+
+.container .right-col .info h1 {
+  text-align: left;
+  color: #c385dd7a;
+  font-size: 7rem;
+  font-weight: 600;
+  line-height: 120px;
+}
+
+.container .right-col .info h1 span {
+  font-weight: 800;
+  color: rgba(255, 255, 255, 0.616);
+}
+
+.container .right-col .info p {
+  text-align: left;
+  color: rgba(255, 255, 255, 0.336);
+  font-size: 25px;
+  text-transform: capitalize;
+}
+
+.container .right-col .info button {
+  text-transform: capitalize;
+  padding: 10px 55px;
+  color: #c385dd7a;
+  font-weight: 600;
+  font-size: 25px;
+  border: none;
+  background: #6733c3;
+  margin-top: 40px;
+  -webkit-box-shadow: -5px -5px 7px #9d76df8e, 5px 5px 7px #1c0b3a8f;
+          box-shadow: -5px -5px 7px #9d76df8e, 5px 5px 7px #1c0b3a8f;
+}
+
+.container .right-col .info button:hover {
+  -webkit-box-shadow: inset -5px -5px 7px #9d76df8e, inset 5px 5px 7px #1c0b3a8f;
+          box-shadow: inset -5px -5px 7px #9d76df8e, inset 5px 5px 7px #1c0b3a8f;
+}
+
+@media only screen and (max-width: 992px) {
+  .container .left-col img {
+    width: 40%;
+    left: 20%;
+    right: 45%;
+  }
+  .container .hero .right-col h1 {
+    font-size: 5rem;
+    line-height: 90px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .container .hero {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .container .hero .left-col {
+    width: 100%;
+    height: 30vh;
+  }
+  .container .hero .left-col img {
+    left: 65%;
+    top: 27%;
+    width: 30%;
+  }
+  .container .hero .right-col {
+    width: 100%;
+    height: 50vh;
+  }
+}
+/*# sourceMappingURL=style.css.map */

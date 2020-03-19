@@ -1,0 +1,126 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: stretch;
+    align-items: stretch;
+    width: 100%;
+    height: 100vh;
+
+    .hero {
+        width: 100%;
+        display: flex;
+        justify-content: stretch;
+        align-items: stretch;
+    }
+    
+    .left-col {
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: url('../img/patrick-hendry-x5GFGHgTgB4-unsplash.jpg') center no-repeat;
+        background-size: cover;
+        position: relative;
+        
+        img {
+            width: 35%;
+            position: absolute;
+            left: 25%;
+            top: 40%;
+        }
+    }
+    .right-col {
+        padding: 0 2em;
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background: #6733c3;
+        .info {
+            width: 80%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: flex-start;
+            padding: 20px;
+            h1 {
+                text-align: left;
+                color: #c385dd7a;
+                font-size: 7rem;
+                font-weight: 600;
+                line-height: 120px;
+                span {
+                    font-weight: 800;
+                    color: rgba(255, 255, 255, 0.616);
+                }
+            }
+
+            p {
+                text-align: left;
+                color: rgba(255, 255, 255, 0.336);
+                font-size: 25px;
+                text-transform: capitalize;
+            }
+
+            button {
+                text-transform: capitalize;
+                padding: 10px 55px;
+                color: #c385dd7a;
+                font-weight: 600;
+                font-size: 25px;
+                border: none;
+                background: #6733c3;
+                margin-top: 40px;
+                box-shadow: -5px -5px 7px #9d76df8e, 5px 5px 7px #1c0b3a8f;
+                &:hover {
+                    box-shadow: inset -5px -5px 7px #9d76df8e, inset 5px 5px 7px
+                    #1c0b3a8f;
+                }
+            }
+
+        }
+    }
+
+
+}
+
+@media only screen and (max-width: 992px){
+    .container .left-col img {
+        width: 40%;
+        left: 20%;
+        right: 45%;
+    }
+    .container .hero .right-col h1{
+        font-size: 5rem;
+        line-height: 90px;
+    }
+}
+
+@media only screen and (max-width: 768px){
+    .container {
+        .hero {
+            flex-direction: column;
+            .left-col {
+                width: 100%;
+                height: 30vh;
+                img {
+                    left: 65%;
+                    top: 27%;
+                    width: 30%;
+                }
+            }
+            .right-col {
+                width: 100%;
+                height: 50vh; 
+            }
+        }
+    }
+}
